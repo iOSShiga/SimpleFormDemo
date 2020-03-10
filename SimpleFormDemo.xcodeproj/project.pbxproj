@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D13AC9072417B1980039A8C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13AC9062417B1980039A8C7 /* AppDelegate.swift */; };
+		D13AC9092417B1980039A8C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13AC9082417B1980039A8C7 /* SceneDelegate.swift */; };
+		D13AC90B2417B1980039A8C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13AC90A2417B1980039A8C7 /* ContentView.swift */; };
+		D13AC90D2417B19B0039A8C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13AC90C2417B19B0039A8C7 /* Assets.xcassets */; };
+		D13AC9102417B19B0039A8C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13AC90F2417B19B0039A8C7 /* Preview Assets.xcassets */; };
+		D13AC9132417B19B0039A8C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13AC9112417B19B0039A8C7 /* LaunchScreen.storyboard */; };
+		D13AC91E2417B19B0039A8C7 /* SimpleFormDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13AC91D2417B19B0039A8C7 /* SimpleFormDemoTests.swift */; };
+		D13AC9292417B19B0039A8C7 /* SimpleFormDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13AC9282417B19B0039A8C7 /* SimpleFormDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D13AC91A2417B19B0039A8C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13AC8FB2417B1970039A8C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D13AC9022417B1980039A8C7;
+			remoteInfo = SimpleFormDemo;
+		};
+		D13AC9252417B19B0039A8C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13AC8FB2417B1970039A8C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D13AC9022417B1980039A8C7;
+			remoteInfo = SimpleFormDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D13AC9032417B1980039A8C7 /* SimpleFormDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFormDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13AC9062417B1980039A8C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D13AC9082417B1980039A8C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D13AC90A2417B1980039A8C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D13AC90C2417B19B0039A8C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D13AC90F2417B19B0039A8C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D13AC9122417B19B0039A8C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D13AC9142417B19B0039A8C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13AC9192417B19B0039A8C7 /* SimpleFormDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFormDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13AC91D2417B19B0039A8C7 /* SimpleFormDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFormDemoTests.swift; sourceTree = "<group>"; };
+		D13AC91F2417B19B0039A8C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13AC9242417B19B0039A8C7 /* SimpleFormDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFormDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13AC9282417B19B0039A8C7 /* SimpleFormDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFormDemoUITests.swift; sourceTree = "<group>"; };
+		D13AC92A2417B19B0039A8C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D13AC9002417B1980039A8C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13AC9162417B19B0039A8C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13AC9212417B19B0039A8C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D13AC8FA2417B1970039A8C7 = {
+			isa = PBXGroup;
+			children = (
+				D13AC9052417B1980039A8C7 /* SimpleFormDemo */,
+				D13AC91C2417B19B0039A8C7 /* SimpleFormDemoTests */,
+				D13AC9272417B19B0039A8C7 /* SimpleFormDemoUITests */,
+				D13AC9042417B1980039A8C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D13AC9042417B1980039A8C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D13AC9032417B1980039A8C7 /* SimpleFormDemo.app */,
+				D13AC9192417B19B0039A8C7 /* SimpleFormDemoTests.xctest */,
+				D13AC9242417B19B0039A8C7 /* SimpleFormDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D13AC9052417B1980039A8C7 /* SimpleFormDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D13AC9062417B1980039A8C7 /* AppDelegate.swift */,
+				D13AC9082417B1980039A8C7 /* SceneDelegate.swift */,
+				D13AC90A2417B1980039A8C7 /* ContentView.swift */,
+				D13AC90C2417B19B0039A8C7 /* Assets.xcassets */,
+				D13AC9112417B19B0039A8C7 /* LaunchScreen.storyboard */,
+				D13AC9142417B19B0039A8C7 /* Info.plist */,
+				D13AC90E2417B19B0039A8C7 /* Preview Content */,
+			);
+			path = SimpleFormDemo;
+			sourceTree = "<group>";
+		};
+		D13AC90E2417B19B0039A8C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D13AC90F2417B19B0039A8C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D13AC91C2417B19B0039A8C7 /* SimpleFormDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D13AC91D2417B19B0039A8C7 /* SimpleFormDemoTests.swift */,
+				D13AC91F2417B19B0039A8C7 /* Info.plist */,
+			);
+			path = SimpleFormDemoTests;
+			sourceTree = "<group>";
+		};
+		D13AC9272417B19B0039A8C7 /* SimpleFormDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D13AC9282417B19B0039A8C7 /* SimpleFormDemoUITests.swift */,
+				D13AC92A2417B19B0039A8C7 /* Info.plist */,
+			);
+			path = SimpleFormDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D13AC9022417B1980039A8C7 /* SimpleFormDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13AC92D2417B19B0039A8C7 /* Build configuration list for PBXNativeTarget "SimpleFormDemo" */;
+			buildPhases = (
+				D13AC8FF2417B1980039A8C7 /* Sources */,
+				D13AC9002417B1980039A8C7 /* Frameworks */,
+				D13AC9012417B1980039A8C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleFormDemo;
+			productName = SimpleFormDemo;
+			productReference = D13AC9032417B1980039A8C7 /* SimpleFormDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D13AC9182417B19B0039A8C7 /* SimpleFormDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13AC9302417B19B0039A8C7 /* Build configuration list for PBXNativeTarget "SimpleFormDemoTests" */;
+			buildPhases = (
+				D13AC9152417B19B0039A8C7 /* Sources */,
+				D13AC9162417B19B0039A8C7 /* Frameworks */,
+				D13AC9172417B19B0039A8C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13AC91B2417B19B0039A8C7 /* PBXTargetDependency */,
+			);
+			name = SimpleFormDemoTests;
+			productName = SimpleFormDemoTests;
+			productReference = D13AC9192417B19B0039A8C7 /* SimpleFormDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D13AC9232417B19B0039A8C7 /* SimpleFormDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13AC9332417B19B0039A8C7 /* Build configuration list for PBXNativeTarget "SimpleFormDemoUITests" */;
+			buildPhases = (
+				D13AC9202417B19B0039A8C7 /* Sources */,
+				D13AC9212417B19B0039A8C7 /* Frameworks */,
+				D13AC9222417B19B0039A8C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13AC9262417B19B0039A8C7 /* PBXTargetDependency */,
+			);
+			name = SimpleFormDemoUITests;
+			productName = SimpleFormDemoUITests;
+			productReference = D13AC9242417B19B0039A8C7 /* SimpleFormDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D13AC8FB2417B1970039A8C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = shiga;
+				TargetAttributes = {
+					D13AC9022417B1980039A8C7 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					D13AC9182417B19B0039A8C7 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = D13AC9022417B1980039A8C7;
+					};
+					D13AC9232417B19B0039A8C7 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = D13AC9022417B1980039A8C7;
+					};
+				};
+			};
+			buildConfigurationList = D13AC8FE2417B1970039A8C7 /* Build configuration list for PBXProject "SimpleFormDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D13AC8FA2417B1970039A8C7;
+			productRefGroup = D13AC9042417B1980039A8C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D13AC9022417B1980039A8C7 /* SimpleFormDemo */,
+				D13AC9182417B19B0039A8C7 /* SimpleFormDemoTests */,
+				D13AC9232417B19B0039A8C7 /* SimpleFormDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D13AC9012417B1980039A8C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13AC9132417B19B0039A8C7 /* LaunchScreen.storyboard in Resources */,
+				D13AC9102417B19B0039A8C7 /* Preview Assets.xcassets in Resources */,
+				D13AC90D2417B19B0039A8C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13AC9172417B19B0039A8C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13AC9222417B19B0039A8C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D13AC8FF2417B1980039A8C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13AC9072417B1980039A8C7 /* AppDelegate.swift in Sources */,
+				D13AC9092417B1980039A8C7 /* SceneDelegate.swift in Sources */,
+				D13AC90B2417B1980039A8C7 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13AC9152417B19B0039A8C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13AC91E2417B19B0039A8C7 /* SimpleFormDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13AC9202417B19B0039A8C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13AC9292417B19B0039A8C7 /* SimpleFormDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D13AC91B2417B19B0039A8C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D13AC9022417B1980039A8C7 /* SimpleFormDemo */;
+			targetProxy = D13AC91A2417B19B0039A8C7 /* PBXContainerItemProxy */;
+		};
+		D13AC9262417B19B0039A8C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D13AC9022417B1980039A8C7 /* SimpleFormDemo */;
+			targetProxy = D13AC9252417B19B0039A8C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D13AC9112417B19B0039A8C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D13AC9122417B19B0039A8C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D13AC92B2417B19B0039A8C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D13AC92C2417B19B0039A8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D13AC92E2417B19B0039A8C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleFormDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = J3W7ZZT238;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SimpleFormDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shigas.SimpleFormDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D13AC92F2417B19B0039A8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleFormDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = J3W7ZZT238;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SimpleFormDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shigas.SimpleFormDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D13AC9312417B19B0039A8C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3W7ZZT238;
+				INFOPLIST_FILE = SimpleFormDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shigas.SimpleFormDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleFormDemo.app/SimpleFormDemo";
+			};
+			name = Debug;
+		};
+		D13AC9322417B19B0039A8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3W7ZZT238;
+				INFOPLIST_FILE = SimpleFormDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shigas.SimpleFormDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleFormDemo.app/SimpleFormDemo";
+			};
+			name = Release;
+		};
+		D13AC9342417B19B0039A8C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3W7ZZT238;
+				INFOPLIST_FILE = SimpleFormDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shigas.SimpleFormDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleFormDemo;
+			};
+			name = Debug;
+		};
+		D13AC9352417B19B0039A8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3W7ZZT238;
+				INFOPLIST_FILE = SimpleFormDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shigas.SimpleFormDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleFormDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D13AC8FE2417B1970039A8C7 /* Build configuration list for PBXProject "SimpleFormDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13AC92B2417B19B0039A8C7 /* Debug */,
+				D13AC92C2417B19B0039A8C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13AC92D2417B19B0039A8C7 /* Build configuration list for PBXNativeTarget "SimpleFormDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13AC92E2417B19B0039A8C7 /* Debug */,
+				D13AC92F2417B19B0039A8C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13AC9302417B19B0039A8C7 /* Build configuration list for PBXNativeTarget "SimpleFormDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13AC9312417B19B0039A8C7 /* Debug */,
+				D13AC9322417B19B0039A8C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13AC9332417B19B0039A8C7 /* Build configuration list for PBXNativeTarget "SimpleFormDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13AC9342417B19B0039A8C7 /* Debug */,
+				D13AC9352417B19B0039A8C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D13AC8FB2417B1970039A8C7 /* Project object */;
+}
